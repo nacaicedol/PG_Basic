@@ -52,6 +52,10 @@ body {
 #nav-list a span {
   font-size: 1.8em;
 }
+.navbar-nav .nav-item{
+  text-align: center;
+  color: #1C0118;
+}
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
@@ -248,13 +252,12 @@ h3.menu-item-title {
     padding-top: 5px;
     font-size: 6vw;
   }
+  .navbar-item{
+    position: absolute;
+  }
   /* End Header */
   
   /* Home page */
-  #menu-tile, #specials-tile {
-    width: 280px;
-    margin: 0 auto 15px;
-  }
 
   .col-xxs-12 {
     position: relative;
